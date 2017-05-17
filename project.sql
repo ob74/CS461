@@ -161,6 +161,7 @@ insert into Sales (Date, Amount, Location) values ('2017-05-18', '218', 11);
 insert into Sales (Date, Amount, Location) values ('2017-05-19', '199', 12);
 
 insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '11:00', '09:00', 1);
+<<<<<<< HEAD
 insert into Hours (Day, Start_time, End_time, Location) values ('Monday', '09:00', '09:00', 2);
 insert into Hours (Day, Start_time, End_time, Location) values ('Tuesday', '11:00', '09:00', 3);
 insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '09:00', '09:00', 4);
@@ -171,4 +172,14 @@ insert into Hours (Day, Start_time, End_time, Location) values ('Wednesday', '10
 insert into Hours (Day, Start_time, End_time, Location) values ('Wednesday', '11:00', '09:00', 9);
 insert into Hours (Day, Start_time, End_time, Location) values ('Monday', '06:00', '04:00', 10);
 insert into Hours (Day, Start_time, End_time, Location) values ('Tuesday', '11:00', '09:00', 11);
+=======
+insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '09:00', '09:00', 4);
+insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '08:00', '04:00', 5);
+insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '08:00', '04:00', 6);
+insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '09:00', '08:00', 7);
+insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '10:00', '09:00', 8);
+insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '11:00', '09:00', 9);
+insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '06:00', '04:00', 10);
+insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '11:00', '09:00', 11);
+>>>>>>> origin/master
 insert into Hours (Day, Start_time, End_time, Location) values ('Thursday', '10:30', '07:30', 12);
